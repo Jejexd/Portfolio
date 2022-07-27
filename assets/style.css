@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #7fa99b;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding: 20px 20px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url("/assets/images/JEN_0302.jpg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+}
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 25px;
+  color: violet;
+}
+header a {
+  text-decoration: underline;
+  color: violet;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+  background: #7fa99b;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+.about-text {
+  text-align: center;
+  background-image: url(/assets/images/JEN_0302.jpg);
+  background-position: 80%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about-text p {
+  text-decoration: none;
+}
+.about-text h2 {
+  text-decoration: underline;
+}
+.project {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
