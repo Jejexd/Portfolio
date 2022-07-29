@@ -80,8 +80,23 @@ header nav ul li a:hover {
   border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
+}
+.project-img-first {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  max-height: 600px;
+  border: #39a6b2 solid 1px;
+}
+.project-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-width: 200px;
+
+  border: #39a6b2 solid 1px;
 }
 footer {
   text-align: center;
