@@ -83,6 +83,9 @@ header nav ul li a:hover {
   align-items: center;
   justify-content: space-between;
 }
+footer {
+  text-align: center;
+}
 
 @media screen and (max-width: 980px) {
   header {
