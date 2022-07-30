@@ -11,7 +11,7 @@ header {
   padding: 20px 40px;
   position: sticky;
   top: 0;
-  background-image: url("/assets/images/JEN_0302.jpg");
+  background-image: url("../assets/images/JEN_0302.jpg");
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
@@ -58,7 +58,7 @@ header nav ul li a:hover {
 }
 .about-img {
   text-align: center;
-  background-image: url("/assets/images/JEN_0302.jpg");
+  background-image: url("../assets/images/JEN_0302.jpg");
   background-position: 80%;
   background-size: cover;
   background-attachment: fixed;
