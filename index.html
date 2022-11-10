@@ -5,24 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeni's Portfolio</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <body>
     <!--Header-->
     <header>
-      <h1>Jeniree Alvarez</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about-me"> About Me</a>
-          </li>
-          <li>
-            <a href="#projects"> Projects</a>
-          </li>
-          <li>
-            <a href="#contact-me"> Contact Me</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Jeniree A Castro</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <!--Section-->
@@ -37,7 +62,7 @@
         </div>
         <div class="about-info">
           <h2>About Me</h2>
-          <p>
+          <p class="text-center fs-6">
             Born and raised in Venezuela. I moved to united states in 2016 to
             find a better future, after 6 years learning English and united
             states culture, I decided to purshed my dreams and become a web
@@ -46,78 +71,87 @@
         </div>
       </section>
       <!--Projects section-->
-      <section id="projects" class="project-container">
-          <article class="project-img-first">
-            <a id="primary-project" href="">
-              <img 
-                src="assets/images/musicapp.png"
-                alt="image of horiseon project"
-              />
-            </a>
-            <h3>Coming Soon</h3>
-          </article>
-          <article class="project-img">
-            <a
-              href="https://www.shecodes.io/workshops/shecodes-basics-57b3ec84-8a72-4cf7-ad84-a02f519069f0/projects/534115"
-              target="_blank"
-            >
-              <img
-                src="assets/images/catwebsite.jpg"
-                alt="image of horiseon project"
-                class=
-              />
-            </a>
-            <h3>Cat Website</h3>
-          </article>
-          <article class="project-img">
-            <a
-              href="https://jejexd.github.io/horiseon-project/"
-              target="_blank"
-            >
-              <img
-                src="assets/images/Screenshot.jpg"
-                alt="image of horiseon project"
-              
-              />
-            </a>
-            <h3>Horiseon Project</h3>
-          </article>
-          <article class="project-img">
-            <a
-              href="https://blissful-minsky-584121.netlify.app/"
-              target="_blank"
-            >
-              <img
-                src="assets/images/Screenshot1.png"
-                alt="image of horiseon project"
-               
-              />
-            </a>
-            <h3>Weather App</h3>
-          </article>
-          <article class="project-img">
-            <a href="https://jejexd.github.io/run-buddy/" target="_blank">
-              <img
-                src="assets/images/Screenshot2.png"
-                alt="image of horiseon project"
-              
-              />
-            </a>
-            <h3>Run Buddy Project</h3>
-          </article>
+      <section class="container d-block">
+        <div class="row">
+          <div id="projects" class="">
+            <article class="project-img-first col">
+              <a id="primary-project" href="">
+                <img
+                  src="assets/images/musicapp.png"
+                  alt="image of horiseon project"
+                  width="300px"
+                />
+              </a>
+              <h3>Coming Soon</h3>
+            </article>
+            <article class="project-img col">
+              <a
+                href="https://www.shecodes.io/workshops/shecodes-basics-57b3ec84-8a72-4cf7-ad84-a02f519069f0/projects/534115"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/catwebsite.jpg"
+                  alt="image of horiseon
+                project"
+                  width="300px"
+                />
+              </a>
+              <h3>Cat Website</h3>
+            </article>
+            <article class="project-img col">
+              <a
+                href="https://jejexd.github.io/horiseon-project/"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/Screenshot.jpg"
+                  alt="image of horiseon project"
+                  width="300px"
+                />
+              </a>
+              <h3>Horiseon Project</h3>
+            </article>
+            <article class="project-img col">
+              <a
+                href="https://blissful-minsky-584121.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/Screenshot1.png"
+                  alt="image of horiseon project"
+                  width="300px"
+                />
+              </a>
+              <h3>Weather App</h3>
+            </article>
+            <article class="project-img">
+              <a href="https://jejexd.github.io/run-buddy/" target="_blank">
+                <img
+                  src="assets/images/Screenshot2.png"
+                  alt="image of horiseon project"
+                  width="300px"
+                />
+              </a>
+              <h3>Run Buddy Project</h3>
+            </article>
+          </div>
         </div>
       </section>
     </main>
     <footer id="contact-me">
-    <h2>Contact Me</h2>
-    <p>
-      555-555-555
-      <a href="mailto:dev.jenireealvarez@gmail.com"
-      >dev.jenireealvarez@gmail.com</a
+      <h2>Contact Me</h2>
+      <p>
+        555-555-555
+        <a href="mailto:dev.jenireealvarez@gmail.com"
+          >dev.jenireealvarez@gmail.com</a
         >
       </p>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  </html>
-
-  
+</html>
