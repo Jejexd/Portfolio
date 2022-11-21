@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #portfolio
 =======
 # Jeniree's Portfolio
@@ -33,4 +33,4 @@
 <!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
 
 ## Acknowledgements
->>>>>>> b2367928db1bcebec632f96e850e1bcf080cbff1
+
