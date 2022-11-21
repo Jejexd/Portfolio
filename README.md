@@ -1,6 +1,4 @@
 
-#portfolio
-=======
 # Jeniree's Portfolio
 
 ## Table of Contents
